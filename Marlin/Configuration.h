@@ -385,11 +385,11 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define Z_MAX_POS 200
 #define Z_MIN_POS 0
 #else
-#define X_MAX_POS 195
+#define X_MAX_POS 205
 #define X_MIN_POS 0
-#define Y_MAX_POS 195
+#define Y_MAX_POS 205
 #define Y_MIN_POS 0
-#define Z_MAX_POS 180
+#define Z_MAX_POS 190
 #define Z_MIN_POS 0
 #endif
 
@@ -541,7 +541,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 #else
 // extruder using 10 mm diameter gear
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.5, 80.5,391.4,102.4}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.5, 80.5,394.0,93.6}
 #define DEFAULT_MAX_FEEDRATE          {100, 100, 5, 50}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {5000,5000,90,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
@@ -557,7 +557,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // #define EXTRUDER_OFFSET_Y {0.0, 5.00}  // (in mm) for each extruder, offset of the hotend on the Y axis
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
-#define DEFAULT_XYJERK                15.0    // (mm/sec)
+#define DEFAULT_XYJERK                5.0    // (mm/sec)
 #define DEFAULT_ZJERK                 0.4     // (mm/sec)
 #define DEFAULT_EJERK                 5.0    // (mm/sec)
 
