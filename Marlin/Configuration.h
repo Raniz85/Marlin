@@ -284,7 +284,7 @@
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 1
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
 #define DUMMY_THERMISTOR_998_VALUE 25
@@ -406,10 +406,10 @@
   //#define  DEFAULT_bedKi 1.41
   //#define  DEFAULT_bedKd 1675.16
   
-  // Sunhokey 2015 aluminium bed, not my numbers - use M303
-  #define  DEFAULT_bedKp 195.62
-  #define  DEFAULT_bedKi 15.21
-  #define  DEFAULT_bedKd 628.99
+  // My Sunhokey 2015, tuned with M303
+  #define  DEFAULT_bedKp 448.99
+  #define  DEFAULT_bedKi 63.73
+  #define  DEFAULT_bedKd 790.79
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
