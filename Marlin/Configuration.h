@@ -361,10 +361,10 @@
   //#define  DEFAULT_Ki 2.25
   //#define  DEFAULT_Kd 440
 
-  // Autotune of Sunhokey Prusa i3 with real e3d v6
-  #define  DEFAULT_Kp 20.08
-  #define  DEFAULT_Ki 1.66
-  #define  DEFAULT_Kd 60.88
+  // Autotune of Sunhokey Prusa i3 with real e3d v6 2018-03-27
+  #define  DEFAULT_Kp 29.34
+  #define  DEFAULT_Ki 4.02
+  #define  DEFAULT_Kd 53.47
 
 #endif // PIDTEMP
 
@@ -406,10 +406,10 @@
   //#define  DEFAULT_bedKi 1.41
   //#define  DEFAULT_bedKd 1675.16
   
-  // My Sunhokey 2015, tuned with M303
-  #define  DEFAULT_bedKp 448.99
-  #define  DEFAULT_bedKi 63.73
-  #define  DEFAULT_bedKd 790.79
+  // My Sunhokey 2015, tuned with M303 on 2018-03-27
+  #define  DEFAULT_bedKp 534.97
+  #define  DEFAULT_bedKi 79.64
+  #define  DEFAULT_bedKd 898.42
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
